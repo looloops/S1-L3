@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focaccia with Caramelized Onions, Cranberries and Brie</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <title>Focaccia with Caramelized Onions, Cranberries and Brie</title>
     <style>
         header {
             text-align: center;
@@ -23,13 +24,33 @@
 
         }
 
-        h1 {
+        .title {
+            margin-inline: auto;
+            width: 70%;
             text-align: center;
+            font-family: 'DM Serif Display', serif;
+            color: #333333;
+            font-size: 2rem;
         }
 
-        .img-container {
+        .img {
             width: 100%;
-            border-radius: 20%;
+            border-radius: 10px;
+        }
+
+        .description {
+            color: #107777;
+            border-top: 2px solid #FFD877;
+            background-color: #FDFBF1;
+            padding: 8px;
+        }
+
+        .caption {
+            text-align: center;
+            color: #999999;
+            width: 100%;
+            font-size: small;
+            margin-top: 7px;
         }
     </style>
 </head>
@@ -37,18 +58,18 @@
 <body>
     <header>
         <img src="./assets/logo.png" alt="logo Simply Recipes" class="logo">
-        <p>Part of a <span> A SIMPLY FABULOUS THANKSGIVING</span></p>
+        <p class="description">Part of a <strong> A SIMPLY FABULOUS THANKSGIVING</strong></p>
         <!-- mettere bordo superiore, sfondo e colore font-->
     </header>
     <main>
         <section>
-            <h1>Focaccia with Caramelized Onions, Cranberries and Brie</h1>
-            <p>Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
-                cranberries, and creamy brie. It will become your new favourite holiday starter!</p>
-            <div class="img-container">
-                <img src="./assets/focaccia.png" alt="focaccia">
-            </div>
-            didascalia
+            <h1 class="title">Focaccia with Caramelized Onions, Cranberries and Brie</h1>
+            <h3>Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
+                cranberries, and creamy brie. It will become your new favourite holiday starter!</h3>
+
+            <img class="img" src="./assets/focaccia.png" alt="focaccia">
+            <div class="caption"><span>Image: Sally Vegas</span></div>
+
         </section>
         <section>
             Ingredients
