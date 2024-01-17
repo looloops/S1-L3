@@ -1,0 +1,77 @@
+p,
+h1,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  max-width: 180px;
+  padding: 8px;
+}
+
+.title {
+  margin-inline: auto;
+  width: 70%;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  color: #333333;
+  font-size: 2rem;
+  margin-block: 2rem;
+}
+
+main {
+  width: 700px;
+  margin-inline: auto;
+}
+
+.description {
+  color: #107777;
+  border-top: 2px solid #ffd877;
+  background-color: #fdfbf1;
+  padding: 8px;
+}
+
+div img,
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.caption {
+  text-align: center;
+  color: #999999;
+  width: 100%;
+  font-size: small;
+  margin-top: 7px;
+}
+
+.featured {
+  border-left: 2px solid #ffd877;
+  padding-left: 16px;
+  margin-block: 16px 56px;
+}
+
+.featured p:first-child {
+  color: #b94f1a;
+  text-transform: uppercase;
+}
+
+h2 {
+  border-bottom: 2px solid #c4f3f2;
+  padding-bottom: 14px;
+}
+
+.steps-list li {
+  line-height: 32px;
+}
+
+.margin-bottom-small {
+  margin-bottom: 4px;
+}
